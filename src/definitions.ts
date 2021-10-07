@@ -19,6 +19,7 @@ export interface IsAvailableOptions {
 export interface AvailableResult {
   isAvailable: boolean;
   biometryType: BiometryType;
+  deviceCredEnrolled: boolean;
 }
 
 export interface BiometricOptions {
@@ -28,6 +29,7 @@ export interface BiometricOptions {
   description?: string;
   negativeButtonText?: string;
   useFallback?: boolean;
+  isDeviceCredentialAllowed?: boolean;
 }
 
 export interface GetCredentialOptions {
