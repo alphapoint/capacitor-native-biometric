@@ -66,7 +66,6 @@ public class AuthAcitivy extends AppCompatActivity {
             @Override
             public void onAuthenticationFailed() {
                 super.onAuthenticationFailed();
-                finishActivity("failed");
             }
         });
 
