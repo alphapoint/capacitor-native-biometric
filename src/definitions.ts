@@ -30,7 +30,6 @@ export interface BiometricOptions {
   negativeButtonText?: string;
   useFallback?: boolean;
   isDeviceCredentialAllowed?: boolean;
-  disableConfirmationRequired?: boolean;
 }
 
 export interface GetCredentialOptions {
